@@ -58,7 +58,7 @@ import { ConfirmDeleteDialog } from "@/components/admin/ConfirmDeleteDialog";
 import { QuestionSelector } from "@/components/admin/QuestionSelector";
 import { CLASSES, MEDIUMS, EXAM_SET_TYPES } from "@/lib/data";
 
-import type { ExamSet } from "@workspace/db";
+//import type { ExamSet } from "@workspace/db";
 
 interface BatchQuestion {
   id: string;
