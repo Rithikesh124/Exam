@@ -537,7 +537,7 @@ function TicketDetailPanel({
           </div>
         )}
 
-        {messages?.map((msg: { id: string; sender: string; message: string; createdAt: string }, idx: number) => {
+        {messages?.map((msg: { id: string; sender: string; message: string; createdAt: string | Date; }, idx: number) => {
           const isSupport = msg.sender === "support";
           // Group consecutive messages from the same sender
           const prevSame = idx > 0 && messages[idx - 1]?.sender === msg.sender;
