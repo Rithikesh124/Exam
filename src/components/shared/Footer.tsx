@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { MessageCircle, Send, Youtube, InstagramIcon, TwitterIcon } from "lucide-react";
+import { MessageCircle, Send, Youtube, Instagram, Twitter } from "lucide-react";
 import Link from "next/link";
 import {
   telegram_link,
