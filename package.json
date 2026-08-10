@@ -12,6 +12,7 @@
     "test:watch": "vitest"
   },
   "dependencies": {
+    "typescript": "^5.0.0",
     "lucide-react": "^0.475.0",
     "@clerk/nextjs": "^6.39.5",
     "@clerk/themes": "^2.4.57",
